@@ -10,8 +10,9 @@ A=[n]
 for i in range (0, n-1):
 	A.append(random.randint(a, b))
 
+print("\nDatos desordenados:")
 print(A)
-
+print("-------------------")
 cont=0
 for j in range(1, len(A)):
 	cont=cont+2
@@ -28,4 +29,5 @@ for j in range(1, len(A)):
 	cont=cont+1
 
 print(A)
+print("-------------------")
 print(cont)
